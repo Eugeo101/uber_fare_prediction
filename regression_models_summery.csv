@@ -1,0 +1,10 @@
+Model,Train Loss,Train Accuracy,Valid Loss,Valid Accuracy
+GradientBoostingRegressor,0.0522,0.8237,0.0532,0.8205
+RandomForestRegressor,0.008,0.9731,0.057,0.8074
+lr_model,0.0576,0.8056,0.0567,0.8056
+Ridge,0.0576,0.8056,0.0567,0.8056
+ElasticNet,0.0613,0.7929,0.0585,0.7929
+Lasso,0.0687,0.7682,0.0585,0.7681
+SGDRegressor (50K instances),0.0709,0.7592,0.0665,0.7545
+KNeighborsRegressor,0.0575,0.8059,0.0905,0.6943
+DecisionTreeRegressor,0.0,1.0,0.1128,0.6213
